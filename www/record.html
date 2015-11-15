@@ -1,0 +1,36 @@
+<ons-page id="record-page">
+    <ons-toolbar>
+        <div class="left"><ons-back-button>戻る</ons-back-button></div>
+        <div class="center">お薬情報の登録</div>
+    </ons-toolbar>
+
+    <div style="text-align: center">
+
+        <input id="type" type="text" class="text-input" placeholder="区分" style="width:80%; margin:10px">
+
+        <input id="content" type="text" class="text-input" placeholder="内容" style="width:80%; margin:10px">
+
+        <input id="quantity" type="text" class="text-input" placeholder="容量" style="width:80%; margin:10px">
+
+        <input id="usage" type="text" class="text-input" placeholder="用法" style="width:80%; margin:10px">
+
+        <ons-button id="camera" modifier="outline" style="width:80%; margin:10px" onclick="shoot()">
+            カメラで撮影
+        </ons-button>
+
+        <div>
+            <img id="picture">
+        </div>
+
+        <div>
+          <ons-button onclick="insert()">
+            登録
+          </ons-button>
+
+          <ons-button onclick="myNavigator.popPage()">
+            キャンセル
+          </ons-button>
+        </div>
+
+    </div>
+</ons-page>
