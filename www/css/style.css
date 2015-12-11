@@ -1,0 +1,72 @@
+div.center{
+        background-color:red;
+        color:white;
+        font-size:30px;
+        width:100%;
+        height:100%;  
+    }
+    
+div.top1{
+        border-style:solid;
+        background-image:url("../img/haikei.png");
+        width:98.6%;
+        height:99.1%;
+}
+
+div.list-item-content{
+    font-size:30px;
+}
+    
+div.left{
+    color:black;
+    height:100%;
+}
+
+div.touroku{
+    height:90%;
+    background-image:url("../img/haikei2.png");
+}
+
+div.kakunin{
+    width: 100%;
+    height: 100%;
+    background-image:url("../img/haikei3.png");
+}
+
+div.main1{
+        background-color:black;
+}
+
+ons-button.button1{
+    font-size:1.4em; 
+    font-weight:bold; 
+    padding:10px 10px; 
+    background-color:#248; 
+    color:#fff;
+    border-style:none;
+    box-shadow:2px 2px 3px 1px #666; 
+    -moz-box-shadow:2px 2px 3px 1px #666; 
+    -webkit-box-shadow:2px 2px 3px 1px #666; 
+}
+
+ons-button.button1:hover { 
+    background-color: #87cefa; 
+    color: #fff; 
+}
+
+input.text-input{
+    font-size:30px;
+    height:50px;
+}
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

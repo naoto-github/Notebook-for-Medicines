@@ -1,11 +1,13 @@
 <ons-page id="record-page">
     <ons-toolbar>
-        <div class="left"><ons-back-button>戻る</ons-back-button></div>
-        <div class="center">お薬情報の登録</div>
+        <div class="left"><ons-back-button>戻る</ons-back-button>
+        <div class="center">お薬情報の登録</div></div>
     </ons-toolbar>
+<br><br><br>
+    <div class="touroku" style="text-align: center">
 
-    <div style="text-align: center">
-
+        <input id="day" type="text" class="text-input" placeholder="日付" style="width:80%; margin:10px">
+        
         <input id="type" type="text" class="text-input" placeholder="区分" style="width:80%; margin:10px">
 
         <input id="content" type="text" class="text-input" placeholder="内容" style="width:80%; margin:10px">
@@ -14,7 +16,7 @@
 
         <input id="usage" type="text" class="text-input" placeholder="用法" style="width:80%; margin:10px">
 
-        <ons-button id="camera" modifier="outline" style="width:80%; margin:10px" onclick="shoot()">
+        <ons-button class="button1" id="camera" modifier="outline" style="width:80%; height:8%; margin:10px; color:black; background-color:white;" onclick="shoot()">
             カメラで撮影
         </ons-button>
 
@@ -23,11 +25,11 @@
         </div>
 
         <div>
-          <ons-button onclick="insert()">
+          <ons-button class="button1" onclick="insert()">
             登録
           </ons-button>
 
-          <ons-button onclick="myNavigator.popPage()">
+          <ons-button class="button1" onclick="myNavigator.popPage()">
             キャンセル
           </ons-button>
         </div>
